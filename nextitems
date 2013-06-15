@@ -5,3 +5,13 @@ Week of 2013-06-09:
 * Freegeek Live images generated weekly and available from network boot menus
   and USB/DVD iso images available on http://r2d2
 * Windows now works on all of the network!
+DB release 2013-06-15:
+* Part of the data cleanup effort necessary for exploring CRM
+  software, there is a new field in the contact management database
+  section for adding details in addition to the actual value to a contact
+  method (like phone, email, etc).
+  .
+  This will allow us to keep the data cleaner, by putting ONLY the
+  phone number in the "value" field and any additional text, such as
+  the emergency contact's name, specific instructions, etc in the new
+  separate "details" field.
