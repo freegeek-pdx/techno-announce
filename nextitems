@@ -1,3 +1,10 @@
+Today's announcements from Technocrats include the following:
+
+* Our email passphrase requirements now allow for higher-security, easier to
+  remember passphrases. See https://www.xkcd.com/936/ for an explanation (i.e.
+  four randomly chosen words).
+  http://mail.freegeek.org/ gives a link to change your email password.
+
 * This week we removed 154 inactive mail accounts from freegeek.org,
   in an effort to reduce old account maintanence burden. Anybody with
   an account who hasn't used it this year no longer has access to it.
