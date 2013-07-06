@@ -1,0 +1,5 @@
+* Disabled 24+ inactive RT queues that haven't been used this year,
+  cleaning up the list in RT significantly
+
+* New done+XXXXX@todo.freegeek.org alias (replacing XXXXX with a ticket
+  number) which will add correspondence to a ticket before resolving it
