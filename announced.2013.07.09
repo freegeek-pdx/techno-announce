@@ -1,0 +1,27 @@
+Here are our Technocrat announcements for this week:
+
+* We disabled 24+ inactive RT queues that haven't been used this year,
+  cleaning up the list in RT significantly. Please let us know if there
+  is any queue that will no longer need to be used.
+
+* There's a new done+XXXXX@todo.freegeek.org alias (replacing XXXXX
+  with a ticket number), which will add correspondence to a ticket
+  before resolving it automatically
+
+The following changes are being updated on the database LATER today:
+
+* Fixes for some crashes and better reporting in the future
+
+* Contact methods (phone, email, etc) will be sorted in a logical
+  order (phone first, and so on)
+
+* For Tech Support intake using shared database users, such as at the
+  front desk, a PIN will be necessary now
+
+* When the front desk opens a volunteer that has notes, there will be
+  a popup alerting of those notes
+
+* Some reports, such as the volunteer milestone report and income
+  report, will provide more detailed information now
+
+* Hopefully, intern badges can be modified to look better as well
