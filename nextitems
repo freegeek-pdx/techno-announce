@@ -1,3 +1,5 @@
+There is a new Technocrat maintained system in sortland.
+
 The automatic logic in RT now opens tickets when either:
 * status is new and person acting on the ticket is not requestor
 * status is not new/open/pending/contact and the requestor is
