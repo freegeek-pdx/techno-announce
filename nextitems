@@ -1,8 +1,0 @@
-There is a new Technocrat maintained system in sortland.
-
-The automatic logic in RT now opens tickets when either:
-* status is new and person acting on the ticket is not requestor
-* status is not new/open/pending/contact and the requestor is
-
-Notably, if you add info to a resolved ticket that you did not request
-nothing will happen. I can modify specific queues to behave different.

@@ -1,0 +1,30 @@
+== New volunteer milestones report on paidworkers ==
+
+Every Thursday, a report which previously went to inreach regarding
+volunteers who pass 100, 200, etc hour totals will be sent to
+paidworkers.
+
+== Large files and pictures on the mailing lists ==
+
+We'd like to request that list users and moderators limit use of list
+technology when sending large pictures. As they are copied to each
+subscribers inbox, this can affect user quota's significantly, taking
+up space on our server. Picture files taken directly from a camera can
+be scaled to smaller thumbnails using a graphics program like GIMP, or
+large images can be linked to on an external website like photobucket.
+
+== New system in sortland ==
+
+There is a new Technocrat maintained system in sortland, freeing bulk
+sales to use their laptop as needed.
+
+== RT behavior change: automatically re-opening tickets ==
+
+The automatic logic in RT now opens tickets when either:
+* status is new and person acting on the ticket is not requestor
+* status is not new/open/pending/contact and the requestor is acting
+  on ticket
+( by acting, I mean commenting or replying )
+
+Notably, if you add info to a resolved ticket that you did not request,
+nothing will happen. I can modify specific queues to behave different.
