@@ -1,9 +1,25 @@
 Goodmorning Free Geek Staff,
 
 Techno announcements:
-- account removal on mail
-- openvpn on port1194 --- or not, meh.
 
-Fgdb:
-- proper intern handling
+== account removal on freegeek.org mail ==
+
+We emailed 27 potentially inactive accounts checking for user
+activity. Users may need to click a link to verify their account, or
+they can email technocrats@ with any questions.
+
+== OpenVPN fixed: but please use port 1194 ==
+
+I've figured out my mistake (sorry!) with the VPN and it is now
+working much better. For future maintainability, we would prefer
+users set up on port 1193 to switch to the standard port, 1194.
+We run these ports identically in parallel for backwards-compat.
+
+Database announcements:
+
+== More Proper Intern Handling ==
+
+Please add interns by using the "add intern" link available in
+the list of rosters/schedules/etc, and be sure to set ther roster
+they are a part of to be one of the "Intern" schedules.
 
