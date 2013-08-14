@@ -1,0 +1,99 @@
+Goodmorning Free Geek Staff,
+
+Techno announcements:
+
+== account removal on freegeek.org mail ==
+
+We emailed 27 potentially inactive accounts checking for user
+activity. Users may need to click a link to verify their account, or
+they can email technocrats@ with any questions.
+
+== OpenVPN fixed: but please use port 1194 ==
+
+I've figured out my mistake (sorry!) with the VPN and it is now
+working much better. For future maintainability, we would prefer
+users set up on port 1193 to switch to the standard port, 1194.
+We run these ports identically in parallel for backwards-compat.
+
+Database announcements (changes happened over the past few days):
+
+== New this morning: contact search splitting (also, org change) ==
+
+When you create a contact in the database after searching for
+their name (which is the best proceedure to prevent duplicates),
+the database provides options for splitting the name in various
+ways now. The previous behavior only worked with a combination
+of first and last name, wheras different choices for splitting
+the words are now provided (including organization name).
+
+== Related change for organizations (and their name field) ==
+
+* The organization checkbox was replaced with radio buttons,
+  still defaulting to Individual but providing two options now
+
+* The organization name field is now always shown, along with
+  the first, middle, last name fields for individuals, to
+  allow more data to be entered where it makes sense
+
+I did this because many organizations were being entered as
+individuals. Please make sure to set a business, non-profit,
+government agency, etc to be marked as an "organization".
+
+== New volunteer scheduling mode: TURBO pilot page ==
+
+I am working on optimizing the volunteer schedule to load faster,
+including providing a new workflow that will provide less info
+(making it load faster, with less cruft for humans to look at).
+
+The "TURBO" mode of the volunteer schedule is still an experiment,
+but the concept is to only show available, non-closed slots in all
+situations where you are "looking for" a shift to schedule somebody,
+limiting to what you are actually looking for with further conditions.
+
+The landing page also provides a contact search box, which will
+give you all results for that contact over the next month, allowing
+you to quickly check people in or cancel their shift(s).
+
+I am still working on making the code run faster. Please let me
+know if you have any suggestions regarding the new workflow!
+
+== More Proper Intern Handling ==
+
+Please add interns by using the "add intern" link available in
+the list of rosters/schedules/etc, and be sure to set ther roster
+they are a part of to be one of the "Intern" schedules.
+
+== Google Voice Plugin no longer causes data entry errors ==
+
+The Google Voice Plugin had caused some users with it installed
+to "lose" contact information entered into the database, replacing
+it with HTML gibberish. There is a warning preventing that now.
+
+== Other misc. bug fixes & changes ==
+
+* Monthly reporting metrics can be pulled all at once from the
+  database using a new "monthly reports" page (but a few more reports
+  must still be added)
+
+* Multiple contact types can be selected for that search condition now
+
+* The "Uncovered LCD monitor" and "System" options were removed from the
+  Disbursement Info section of printme spec sheets
+
+* We upgraded our receipt printing applet
+
+* Fixed a bug generating duplicate resources for volskedj events
+
+* Fixed a crash when no value is provided for last logged in condition
+
+* Added upcoming holidays for the next 3 years, to avoid missing them
+
+* The conditions table is more understandable, with better styling to
+  keep the field and exclude checkbox closer to the condition name
+
+* The privileges system was refactored for application-wide efficiency
+
+Please let me know if you find any problems.
+
+Thanks,
+Ryan
