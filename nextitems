@@ -50,5 +50,5 @@ they are a part of to be one of the "Intern" schedules.
     #36903)
   * Add structure for rendering monthly report metrics on a single page
     (Closes: #36435)
-
+Implement options for name splitting (Closes: #36877)
 
