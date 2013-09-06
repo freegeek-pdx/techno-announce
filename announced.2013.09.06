@@ -1,0 +1,31 @@
+Recent changes to our technical infrastructure include:
+
+== Database Income Report: Tracking Tech Support & more ==
+
+The income report now breaks out different service fees from the donor
+desk separately as recycling, pickup, tech support, education and
+other fees.
+
+Service fees for Pickups, Tech Support, Classes and other non-donation
+income can be entered using the "Required Service Fee" gizmo types on
+the donations entry screen.
+
+We are working on an interface for tech support to generate an invoice
+which will preseed everything besides payment for the front desk.
+
+This new report also tracks Refunds from the store and will be
+automatically imported into the new QBE accounting system soon.
+
+== Server Hardware & Technology Upgrade ==
+
+We recently completed our migration from Xen to KVM-based servers, and
+upgraded to much more powerful host hardware at the same time. This
+will speed up our services!
+
+We have also reached 75% completion for our upgrade to the latest
+Debian stable release, well ahead of schedule in my opinion!
+
+== Phone redeployment ==
+
+We were able to run lines for Integra to punch down to nearly every
+area that requested or may want a new phone.
