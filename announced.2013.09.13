@@ -1,0 +1,26 @@
+Sorry if I disrupted people with my later than normal DB
+release this morning, I've released the following features:
+
+== Database Stuff ==
+
+There is now a feature for Tech Support to generate an invoice
+recording the fees for a work order. This generates a digital
+receipt and pre-populates everything for the Front Desk worker.
+
+There is also the ability to override returns for actual refunds,
+to allow for better tracking of those rare situations.
+
+The final feature of this morning is our daily income report
+automatically generated into the form our new QBE books will
+accept it, making less routine work for the bean counters.
+
+== Other Technocrats Stuff ==
+
+Other than the database, the webmail client that is available
+at https://mail.freegeek.org is now using a SSL certificate
+from a vendor that is better established, making it more secure
+to access our email system (with less security warnings).
+
+We also completed the project of removing inactive users from
+our email system, removing a final 20 additional users who did
+not respond to our mailing, freeing resources for the rest of us.
